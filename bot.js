@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "!";
- 
+var prefix = "!";
+
 client.on('message', async message => {//alpha codes & Mrx -Dev
         if (message.content.startsWith(prefix + 'role')) {//alpha codes & Mrx -Dev
           var args = message.content.split(' ').slice(2);
