@@ -46,7 +46,7 @@ client.on('ready', () => {
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
   console.log(`channels! [ " ${client.channels.size} " ]`);
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-	client.user.setActivity("~help",{type: 'WATCHING'});
+	client.user.setActivity(" انا اخشى غضبي لهادا لحد تراني مسالم ولطيف",{type: 'STREAMING'});
 });
 
 
