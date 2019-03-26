@@ -64,7 +64,7 @@ client.on('message', message => {
   if (message.author.id !== "272004278082600960") return;
 
 if (message.content.startsWith(PREFIX + 'setstream')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
+  client.user.setGame(argresult, "https://www.twitch.tv/FBIGamer");
 	 console.log('test' + argresult);
     message.channel.sendMessage(`Streaming: **${argresult}`)
 }
@@ -82,4 +82,4 @@ if (message.content.startsWith(PREFIX + 'setavatar')) {
 ////////////
 
 /////////////
-client.login("MjcyMDA0Mjc4MDgyNjAwOTYw.D2aGjA.h9oOOjx0Ra7phoj3jN8diQF1FwY");
+client.login("NTU5ODYyMjk0MDI1MjA3OTIy.D3uVVw.m1WskFsm1AoOreBINjNSL6eOnBE");
