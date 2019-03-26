@@ -82,4 +82,4 @@ if (message.content.startsWith(PREFIX + 'setavatar')) {
 ////////////
 
 /////////////
-client.login("NTU5ODYyMjk0MDI1MjA3OTIy.D3uVVw.m1WskFsm1AoOreBINjNSL6eOnBE");
+client.login("");
