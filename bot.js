@@ -21,39 +21,25 @@ const gif = require("gif-search");
 
 
 
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-console.log('         [Wait please .. ]       ')
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-client.on('ready', () => {
-	console.log('')
-	console.log('')
-	console.log('')
-	console.log('')
-	console.log('')
-	console.log('')
-	console.log('')
-	console.log('')
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`Logged in as [ ${client.user.tag}! ]`);
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log('[           BOT IS ONLINE         ]')
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log('[        info         ]')
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`servers! [ " ${client.guilds.size} " ]`);
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`Users! [ " ${client.users.size} " ]`);
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`channels! [ " ${client.channels.size} " ]`);
-  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-	client.user.setActivity(" انا اخشى غضبي لهادا لحد تراني مسالم ولطيف",{type: 'STREAMING'});
+client.on("ready", () => { 
+console.log('By : m7md'); client.user.setPresence({ 
+       status: 'dnd', 
+       game: { type: 0, name: 'F.B.IGamer 🍷 , DANCIN' IN THE DARK',
+       details: `https://discord.gg/`, 
+       url: 'http://twitch.tv/F.B.IGamer', 
+       state: `Deving & Coding`, 
+      application_id: '532682436471947264', 
+
+      assets: { 
+small_image: `535061300569571329`, 
+
+small_text: 'Narox Devs', 
+large_image: `535061300569571329`, large_text: `Road To 1K` } 
+
+} 
+
+}); 
 });
-
-
-client.on('ready', () => {
-  client.user.setGame("https://www.twitch.tv/FBIGamer"); 
-});
-
 
 
 		
@@ -82,4 +68,4 @@ if (message.content.startsWith(PREFIX + 'setavatar')) {
 ////////////
 
 /////////////
-client.login("");
+client.login("MjcyMDA0Mjc4MDgyNjAwOTYw.D2q0pA.pd7yfvlgrwCsKDKWcn39ff-3NtQ");
