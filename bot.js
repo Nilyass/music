@@ -8,7 +8,7 @@ const Util = require('discord.js');
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' 𝓓𝓪𝓷𝓬𝓲𝓷𝓰 𝓲𝓷 𝓽𝓱𝓮 𝓓𝓪𝓻𝓴 𝔀𝓲𝓽𝓱 𝕯𝖊𝖒𝖔𝖓𝖘 '];
+    var setGame = ['premuim : Beta'];
     var i = -1;
     var j = 0;
     setInterval(function (){ 
@@ -25,4 +25,4 @@ client.on('ready', function(){
 });
 		
 
-client.login("");
+client.login("NTY4MDc4NDQwNzYzMjI4MjE0.XLoA1w.3huFMiObYa1ybTXipI5KxKvL4Pc");
