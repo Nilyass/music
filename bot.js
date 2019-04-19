@@ -20,9 +20,9 @@ client.on('ready', function(){
         }
         i = i+j;
         client.user.setGame(setGame[i],`http://www.twitch.tv/F.B.I Gamer`);
-    }, ms);
+    }, ms)
     
 });
 		
 
-client.login("NTY4MDc4NDQwNzYzMjI4MjE0.XLoA1w.3huFMiObYa1ybTXipI5KxKvL4Pc");
+client.login("");
