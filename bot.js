@@ -8,7 +8,7 @@ const Util = require('discord.js');
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['singale 😥'];
+    var setGame = ['single 😥'];
     var i = -1;
     var j = 0;
     setInterval(function (){ 
