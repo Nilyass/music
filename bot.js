@@ -8,7 +8,7 @@ const Util = require('discord.js');
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['premuim : Beta'];
+    var setGame = ['singale 😥'];
     var i = -1;
     var j = 0;
     setInterval(function (){ 
@@ -19,10 +19,10 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/F.B.I Gamer`);
+        client.user.setGame(setGame[i],`http://www.twitch.tv/salma`);
     }, ms)
     
 });
 		
 
-client.login("");
+client.login("NTE5NjI3OTExODg4ODk2MDA1.XNRMqA.Oo3zSp_fzm5oW4t45POj523go1k");
