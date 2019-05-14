@@ -8,7 +8,7 @@ const Util = require('discord.js');
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['Fire , Rewards'];
+    var setGame = ['Rewards,0,0K'];
     var i = -1;
     var j = 0;
     setInterval(function (){ 
